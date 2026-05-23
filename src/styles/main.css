@@ -1,0 +1,27 @@
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard-table th {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.leaderboard-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.leaderboard-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.leaderboard-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
